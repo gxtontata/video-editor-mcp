@@ -1,0 +1,21 @@
+{
+  "name": "video-editor-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that exposes ffmpeg-powered video editing tools to AI assistants like Claude",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "video-editor-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
